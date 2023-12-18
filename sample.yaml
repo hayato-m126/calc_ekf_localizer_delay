@@ -1,0 +1,136 @@
+---
+header:
+  stamp:
+    sec: 0
+    nanosec: 0
+  frame_id: ''
+status:
+- level: "\x01"
+  name: ndt_scan_matcher
+  message: 'Initializing State. '
+  hardware_id: ''
+  values:
+  - key: state
+    value: Initializing
+---
+header:
+  stamp:
+    sec: 1687484842
+    nanosec: 164051309
+  frame_id: ''
+status:
+- level: "\x01"
+  name: 'localization: ekf_localizer'
+  message: '[WARN]process is not activated'
+  hardware_id: ekf_localizer
+  values:
+  - key: is_activated
+    value: 'False'
+---
+header:
+  stamp:
+    sec: 1687484871
+    nanosec: 364632918
+  frame_id: ''
+status:
+- level: "\0"
+  name: 'localization: ekf_localizer'
+  message: OK
+  hardware_id: ekf_localizer
+  values:
+  - key: is_activated
+    value: 'True'
+  - key: pose_no_update_count
+    value: '1'
+  - key: pose_no_update_count_threshold_warn
+    value: '50'
+  - key: pose_no_update_count_threshold_error
+    value: '250'
+  - key: pose_queue_size
+    value: '0'
+  - key: pose_is_passed_delay_gate
+    value: 'True'
+  - key: pose_delay_time
+    value: '0.000000'
+  - key: pose_delay_time_threshold
+    value: '0.000000'
+  - key: pose_is_passed_mahalanobis_gate
+    value: 'True'
+  - key: pose_mahalanobis_distance
+    value: '0.000000'
+  - key: pose_mahalanobis_distance_threshold
+    value: '10000.000000'
+  - key: twist_no_update_count
+    value: '1'
+  - key: twist_no_update_count_threshold_warn
+    value: '50'
+  - key: twist_no_update_count_threshold_error
+    value: '250'
+  - key: twist_queue_size
+    value: '0'
+  - key: twist_is_passed_delay_gate
+    value: 'True'
+  - key: twist_delay_time
+    value: '0.000000'
+  - key: twist_delay_time_threshold
+    value: '0.000000'
+  - key: twist_is_passed_mahalanobis_gate
+    value: 'True'
+  - key: twist_mahalanobis_distance
+    value: '0.000000'
+  - key: twist_mahalanobis_distance_threshold
+    value: '10000.000000'
+---
+header:
+  stamp:
+    sec: 1687485000
+    nanosec: 940126219
+  frame_id: ''
+status:
+- level: "\0"
+  name: 'localization: ekf_localizer'
+  message: OK
+  hardware_id: ekf_localizer
+  values:
+  - key: is_activated
+    value: 'True'
+  - key: pose_no_update_count
+    value: '0'
+  - key: pose_no_update_count_threshold_warn
+    value: '50'
+  - key: pose_no_update_count_threshold_error
+    value: '250'
+  - key: pose_queue_size
+    value: '1'
+  - key: pose_is_passed_delay_gate
+    value: 'True'
+  - key: pose_delay_time
+    value: '0.190289'
+  - key: pose_delay_time_threshold
+    value: '0.998326'
+  - key: pose_is_passed_mahalanobis_gate
+    value: 'True'
+  - key: pose_mahalanobis_distance
+    value: '0.617090'
+  - key: pose_mahalanobis_distance_threshold
+    value: '10000.000000'
+  - key: twist_no_update_count
+    value: '0'
+  - key: twist_no_update_count_threshold_warn
+    value: '50'
+  - key: twist_no_update_count_threshold_error
+    value: '250'
+  - key: twist_queue_size
+    value: '4'
+  - key: twist_is_passed_delay_gate
+    value: 'True'
+  - key: twist_delay_time
+    value: '0.027366'
+  - key: twist_delay_time_threshold
+    value: '0.998326'
+  - key: twist_is_passed_mahalanobis_gate
+    value: 'True'
+  - key: twist_mahalanobis_distance
+    value: '0.006166'
+  - key: twist_mahalanobis_distance_threshold
+    value: '10000.000000'
